@@ -1,6 +1,14 @@
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
 require "rails/test_help"
+require 'simplecov'
+
+SimpleCov.start do
+  add_filter '/test/' 
+
+  add_group 'Controllers', 'app/controllers'
+  add_group 'Models', 'app/models'
+end
 
 module ActiveSupport
   class TestCase
