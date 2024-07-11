@@ -1,4 +1,8 @@
 # README
+[![Maintainability](https://api.codeclimate.com/v1/badges/06ac29abc02c246ddabe/maintainability)](https://codeclimate.com/github/nduykhanh/codeclimate_rails/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/06ac29abc02c246ddabe/test_coverage)](https://codeclimate.com/github/nduykhanh/codeclimate_rails/test_coverage)
+
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
